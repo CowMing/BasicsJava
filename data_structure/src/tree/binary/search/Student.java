@@ -1,6 +1,5 @@
 package tree.binary.search;
 
-
 public class Student implements Comparable<Student> {
 
 

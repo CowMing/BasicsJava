@@ -1,7 +1,10 @@
 package tree.binary.search;
 
-import java.time.temporal.ChronoUnit;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Binary Search Tree
@@ -61,7 +64,6 @@ public class BinarySearchTree <E extends Comparable> {
         } else {
             return contains(node.rightChild, e);
         }
-
     }
 
     /* -----   PreorderTraverse begin     ----- */
