@@ -54,4 +54,8 @@ public class Trie {
         }
         return cur.isWord;
     }
+
+    public static void main(String[] args) {
+        System.out.println((12)%20);
+    }
 }
