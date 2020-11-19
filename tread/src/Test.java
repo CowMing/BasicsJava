@@ -1,7 +1,11 @@
 public class Test {
 
     public static void main(String[] args) throws InterruptedException {
-        Object n = new Object();
-        n.wait();
+        Runnable r = () ->{
+            System.out.println(Thread.currentThread().getName());
+        };
+
+        r.run();
+        new Thread(r).start();
     }
 }
